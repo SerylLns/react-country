@@ -1,0 +1,25 @@
+.countries{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin: 65px auto;
+  width: 90%;
+  box-shadow: 1px 0px 4px grey;
+  ul{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    li{
+      margin: 5px;
+    }
+  }
+}
+.sort-container{
+  box-shadow: 1px 0px 4px grey;
+  position: absolute;
+  background-color: #d13d;
+  padding: 20px 0px;
+  width: 100%;
+  top: -50px;
+  border-radius: 16px;
+}
